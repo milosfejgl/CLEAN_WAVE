@@ -10,12 +10,14 @@ CTestTestfile.cmake
 _deps
 README.md
 LICENSE.txt
-JUCE
+docs
+Builds/
+assets/
 **/.DS_Store
 
 # It's nice to have the Builds folder exist, to remind us where it is
-Builds/*
-!Builds/.gitkeep
+# Builds/*
+# !Builds/.gitkeep
 
 # This should never exist
 Install/*
@@ -31,3 +33,18 @@ cmake-build-debug
 cmake-build-release
 cmake-build-relwithdebinfo
 packaging/Output/*
+
+# Ignore JUCE directory
+JUCE/
+
+# Ignore specific assets
+assets/images/Malone.png
+assets/images/malone_logo.png
+
+# Ignore specific model files
+assets/models/master64_0.pt
+assets/models/model.onnx
+assets/models/model.pth
+assets/models/pretrained_model.jit
+assets/models/pretrained_model.pt
+assets/models/pretrained_model_v2.pt
