@@ -12,7 +12,7 @@ README.md
 LICENSE.txt
 docs
 Builds/
-assets/
+assets/images
 **/.DS_Store
 
 # It's nice to have the Builds folder exist, to remind us where it is
@@ -48,3 +48,14 @@ assets/models/model.pth
 assets/models/pretrained_model.jit
 assets/models/pretrained_model.pt
 assets/models/pretrained_model_v2.pt
+
+# Ignore all .pt model files
+*.pt
+
+# If you want to ignore specific paths explicitly
+assets/models/dns48_12_11.pt
+assets/models/dns48_12_12.pt
+assets/models/dns48_12_13.pt
+assets/models/dns48_12_14.pt
+assets/models/dns48_12_15.pt
+assets/models/master64_0.pt
