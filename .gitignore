@@ -8,6 +8,9 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+README.md
+LICENSE.txt
+JUCE
 **/.DS_Store
 
 # It's nice to have the Builds folder exist, to remind us where it is
